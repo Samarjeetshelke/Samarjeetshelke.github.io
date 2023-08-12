@@ -8,15 +8,30 @@
         <p>
 
             adjfadjadf
-            hadjfalalkd
             jhfa<p>hdflkahdfakjh
-                vlkanclakdjh</p>hdflka
-                hdfakjhv<a title="instagram" href="https://www.w3schools.com" target="hijack">xxx</a>lkanclakdjhalidhfl
+                vlkan<ins>sss</ins></p>hdflka
+                hdfakjhv<a title="instagram" href="https://youtu.be/h25S27rh4oY" target="hijack">xxx</a>lkanclakdjhalidhfl
                 ajnalkdcalknva
+                <p>
+                    this is used H<sub>2</sub>O
+                </p>
+                <p id="my"></p>
         </p>
 
-        <iframe name="hijack" src="demo.html" style="" desc="iframe" height="300px" width="1000px">
-
+        <iframe width="420" height="345" src="https://www.youtube.com/watch?v=2amPYDhA2Xs">
         </iframe>
+        <picture width="420" height="345">
+            <source width="420" height="345" media="(min-width: 650px)" srcset="first.jpg">
+            <source width="420" height="345" media="(min-width: 465px)" srcset="sec.jpg">
+            <img src="img_girl.jpg">
+          </picture>
+        <script>
+            var x=document.getElementById("my");
+            navigator.geolocation.getCurrentPosition(showpos);
+            function showpos (position) {
+                x.innerHTML = "Latitude: " + position.coords.latitude +
+  "<br>Longitude: " + position.coords.longitude;  
+            }
+        </script>
     </body>
 </html>
