@@ -22,11 +22,12 @@
 
         <iframe width="420" height="345" src="https://www.youtube.com/watch?v=2amPYDhA2Xs">
         </iframe>
-        <picture width="420" height="345">
-            <source width="420" height="345" media="(min-width: 650px)" srcset="first.jpg">
-            <source width="420" height="345" media="(min-width: 465px)" srcset="sec.jpg">
-            <img src="img_girl.jpg">
-          </picture>
+        <picture>
+  <source srcset="first.jpg" media="(max-width: 600px)">
+  <source srcset="sec.jpg" media="(max-width: 1500px)">
+  <source srcset="x.jpg">
+  <img src="first.jpg" alt="Flowers">
+</picture>
         <script>
             var x=document.getElementById("my");
             navigator.geolocation.getCurrentPosition(showpos);
